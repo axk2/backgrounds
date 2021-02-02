@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.background {
+    background-image: url("https://source.unsplash.com/random/1200x400");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.color {
+    height: 40vh;
+    background-image: url("https://source.unsplash.com/random/1200x401");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.filtro {
+    height: 100vh;
+    background-color: rgba(233, 222, 222, 0.685);
+}
+
+.filtro2 {
+    height: 100vh;
+    background-color: rgba(228, 47, 47, 0.562);
+}
