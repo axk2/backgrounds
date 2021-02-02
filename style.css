@@ -2,6 +2,20 @@ body {
     margin: 0;
 }
 
+nav {
+    height: 70px;
+    background-color: black;
+}
+
+.portada {
+    background-image: url("https://source.unsplash.com/random/1201x400");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* parallax */
 .background {
     background-image: url("https://source.unsplash.com/random/1200x400");
     background-repeat: no-repeat;
@@ -11,6 +25,7 @@ body {
     height: 100vh;
 }
 
+/* parallax pequeño */
 .color {
     height: 40vh;
     background-image: url("https://source.unsplash.com/random/1200x401");
@@ -20,11 +35,13 @@ body {
     background-attachment: fixed;
 }
 
+/* filtro blanco */
 .filtro {
     height: 100vh;
     background-color: rgba(233, 222, 222, 0.685);
 }
 
+/* filtro rojo */
 .filtro2 {
     height: 100vh;
     background-color: rgba(228, 47, 47, 0.562);
