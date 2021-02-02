@@ -46,3 +46,8 @@ nav {
     height: 100vh;
     background-color: rgba(228, 47, 47, 0.562);
 }
+
+footer {
+    background-color: black;
+    height: 80vh;
+}
